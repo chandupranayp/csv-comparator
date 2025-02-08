@@ -23,7 +23,7 @@ public class CSVComparatorTest {
     @Test
     public void testCompareCSVFiles_SameContent() throws IOException, CsvException {
     	
-    	System.out.println("Comparing file1.csv and file3.csv");
+    	System.out.println("Comparing file1.csv and file3.csv (Comparing files with identical content)");
         CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file1.csv", "src/test/resources/csv/file3.csv");
         
     }
@@ -32,7 +32,7 @@ public class CSVComparatorTest {
     @Test
     public void testCompareCSVFiles_DifferentContent() throws IOException, CsvException {
     	
-        System.out.println("Comparing file1.csv and file2.csv");
+        System.out.println("Comparing file1.csv and file2.csv (Comparing files with a department mismatch)");
         CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file1.csv", "src/test/resources/csv/file2.csv");
         
     }
@@ -41,7 +41,7 @@ public class CSVComparatorTest {
     @Test
     public void testCompareCSVFiles_MissingRow() throws IOException, CsvException {
     	
-        System.out.println("Comparing file1.csv and file4.csv");
+        System.out.println("Comparing file1.csv and file4.csv (Comparing files with missing rows)");
         CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file1.csv", "src/test/resources/csv/file4.csv");
     }
 
@@ -49,7 +49,7 @@ public class CSVComparatorTest {
     @Test
     public void testCompareCSVFiles_DifferentColumnOrder() throws IOException, CsvException {
     	
-        System.out.println("Comparing file1.csv and file5.csv (same data, different column order)");
+        System.out.println("Comparing file1.csv and file5.csv (Same data, different column order)");
         CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file1.csv", "src/test/resources/csv/file5.csv");
         
     }
@@ -90,8 +90,48 @@ public class CSVComparatorTest {
     // Test comparing identical files
     @Test
     public void testCompareCSVFiles_IdenticalFiles() throws IOException, CsvException {
-        System.out.println("Comparing file1.csv and file1.csv (same content)");
+        System.out.println("Comparing file1.csv and file1.csv (Same content)");
         CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file1.csv", "src/test/resources/csv/file1.csv");
+        
+    }
+    
+    // Test Different Number Formats
+    @Test
+    public void testCompareCSVFiles_Different_Number_Formats() throws IOException, CsvException {
+        System.out.println("Comparing file10.csv and file11.csv (Different Number Formats)");
+        CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file10.csv", "src/test/resources/csv/file11.csv");
+        
+    }
+    
+    // Test Case Sensitivity Formats
+    @Test
+    public void testCompareCSVFiles_Case_Sensitivity_Formats() throws IOException, CsvException {
+        System.out.println("Comparing file12.csv and file13.csv (Case Sensitivity Formats)");
+        CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file12.csv", "src/test/resources/csv/file13.csv");
+        
+    }
+    
+    // Test Missing File
+    @Test
+    public void testCompareCSVFiles_Missing_File() throws IOException, CsvException {
+        System.out.println("Comparing file14.csv and file151.csv (Missing File)");
+        CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file14.csv", "src/test/resources/csv/file151.csv");
+        
+    }
+    
+    // Test Extra Whitespace Between Words
+    @Test
+    public void testCompareCSVFiles_Extra_Whitespaces_Between_Words() throws IOException, CsvException {
+        System.out.println("Comparing file16.csv and file17.csv (Extra Whitespaces Between Words)");
+        CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file16.csv", "src/test/resources/csv/file17.csv");
+        
+    }
+    
+    // Test Different Date Formats
+    @Test
+    public void testCompareCSVFiles_Different_Date_Formats() throws IOException, CsvException {
+        System.out.println("Comparing file18.csv and file19.csv (Different Date Formats)");
+        CSVComparatorUtil.compareCSVFiles("src/test/resources/csv/file18.csv", "src/test/resources/csv/file19.csv");
         
     }
 }
