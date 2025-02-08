@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-08T00:30:07 EST" name="CSV Comparison Suite" finished-at="2025-02-08T00:30:07 EST" duration-ms="136">
+    <groups>
+    </groups>
+    <test started-at="2025-02-08T00:30:07 EST" name="CSV Comparison Tests" finished-at="2025-02-08T00:30:07 EST" duration-ms="136">
+      <class name="com.csv.comparator.CSVComparatorTest">
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method signature="testCompareCSVFiles_DifferentColumnOrder()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_DifferentColumnOrder" finished-at="2025-02-08T00:30:07 EST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_DifferentColumnOrder -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method signature="testCompareCSVFiles_DifferentContent()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_DifferentContent" finished-at="2025-02-08T00:30:07 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_DifferentContent -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method signature="testCompareCSVFiles_EmptyRows()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_EmptyRows" finished-at="2025-02-08T00:30:07 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_EmptyRows -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method signature="testCompareCSVFiles_ExtraColumnsInFile2()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_ExtraColumnsInFile2" finished-at="2025-02-08T00:30:07 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_ExtraColumnsInFile2 -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method signature="testCompareCSVFiles_ExtraRowsInFile2()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_ExtraRowsInFile2" finished-at="2025-02-08T00:30:07 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_ExtraRowsInFile2 -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method signature="testCompareCSVFiles_IdenticalFiles()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_IdenticalFiles" finished-at="2025-02-08T00:30:07 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_IdenticalFiles -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method signature="testCompareCSVFiles_MissingColumnInFile2()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_MissingColumnInFile2" finished-at="2025-02-08T00:30:07 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_MissingColumnInFile2 -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method signature="testCompareCSVFiles_MissingRow()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_MissingRow" finished-at="2025-02-08T00:30:07 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_MissingRow -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+        <test-method is-config="true" signature="printTestStarted()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestStarted" finished-at="2025-02-08T00:30:07 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestStarted -->
+        <test-method signature="testCompareCSVFiles_SameContent()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="testCompareCSVFiles_SameContent" finished-at="2025-02-08T00:30:07 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompareCSVFiles_SameContent -->
+        <test-method is-config="true" signature="printTestComplete()[pri:0, instance:com.csv.comparator.CSVComparatorTest@5ab9e72c]" started-at="2025-02-08T00:30:07 EST" name="printTestComplete" finished-at="2025-02-08T00:30:07 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTestComplete -->
+      </class> <!-- com.csv.comparator.CSVComparatorTest -->
+    </test> <!-- CSV Comparison Tests -->
+  </suite> <!-- CSV Comparison Suite -->
+</testng-results>
