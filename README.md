@@ -22,3 +22,5 @@ A Java-based tool that compares two CSV files, identifies the differences, and r
 1. Clone the repository:
    ```bash
    git clone https://github.com/chandupranayp/csv-comparator.git
+# csv-comparator
+# csv-comparator
